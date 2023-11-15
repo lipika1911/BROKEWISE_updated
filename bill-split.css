@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    line-height: 1.6;
+    background-color: #c8b2ee;
+    font-size: 1.05rem;
+}
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    min-height: 100vh;
+    width: 500px;
+}
+.split-bill{
+    max-width: 500px;
+    margin: 65px auto;
+    background-color:#793FDF;
+    overflow: hidden;
+    border-radius: 14px;
+}
+.title{
+    padding: 0.7rem 0;
+}
+.title h1{
+    text-align: center;
+    color: white;
+}
+.bill-inputs,.bill-output{
+    padding: 2rem 2.5rem;
+}
+.bill-input{
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+.form-group{
+    padding: 0.5rem 0;
+    border-radius: 14px;
+}
+.form-group label{
+    text-transform: uppercase;
+    display: inline-block;
+    padding-bottom: 0.2rem;
+    color: white;
+    font-size: 20px;
+}
+.form-control{
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    transition: all 0.4s ease;
+}
+.form-control:focus{
+    outline: 0;
+    border-color: black;
+}
+#calc-btn{
+    padding: 0.9rem 2.2rem;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    display: block;
+    margin: 20px auto;
+    margin-top: 1.25 rem;
+    margin-bottom: 0;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+#calc-btn:hover{
+    background-color: rgb(241, 100, 100);
+}
+.text-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.3rem 10px;
+    color:black;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: white;
+}
+.text-group h3{
+    font-weight: 400;
+    opacity: 0.8;
+    padding-top: 0px;
+}
+.text-group:nth-child(1) h3{
+    font-weight: 700;
+}
+.text-group span{
+    font-weight: 600;
+}
+.navbar {
+    top: 0;
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color:#793FDF;
+    overflow: auto;
+    font-size: 30px;
+    padding:10px 20px;
+    align-items: center;
+}
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+  
+.navbar-title{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+.navbar a:hover {
+    color: rgb(243, 243, 42);
+}
+.logo{
+    color: white;
+}
+.nav-btn{
+    padding: 14px 7px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 1px solid lightgray;
+    border-radius: 14px;
+    background-color: rgb(227, 39, 39);
+    color: white;
+}
+.nav-btn:hover{
+    width: 180px;
+    font-size:22px;
+    padding: 2px 2px;
+    font-weight: 2400;
+}
+.active{
+    font-family: 'Courgette', cursive;
+    font-size: 35px;
+}
+.sections{
+    display: flex;
+    gap: 20px;
+}
